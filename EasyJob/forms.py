@@ -38,7 +38,7 @@ class InscriptionForm(forms.ModelForm):
         ))
     class  Meta:
         model = Utilisateur
-        fields = ('email','username', 'mot de passe', 'spécialité', 'téléphone')
+        fields = ('email','username', 'specialite', 'telephone')
        
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

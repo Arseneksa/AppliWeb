@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 class Utilisateur (User):
         diplome = models.CharField(max_length=255)
         specialite = models.CharField(max_length=255)
-        Telephone = models.IntegerField()
+        telephone = models.IntegerField()
         competence =  models.CharField(max_length=100)
         localisation =  models.CharField(max_length=100)
         #ecole = models.CharField(max_length=100)
